@@ -143,3 +143,48 @@ ul {
 .nav-toggle {
   display: none;
 }
+
+/* header section */
+
+header {
+  padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section {
+  justify-content: center;
+  gap: 50px;
+}
+
+.header-left {
+  max-width: 40vw;
+}
+
+.header-left h1 {
+  margin-top: 20px;
+}
+
+.get-started-btn {
+  margin-top: 20px;
+}
+
+.header-right img {
+  width: 100%;
+}
+
+/* companies section */
+
+.companies-header {
+  text-align: center;
+  margin-block: 30px;
+  color: var(--primary-text-color);
+}
+
+.logos {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logo {
+  height: 46px;
+}
